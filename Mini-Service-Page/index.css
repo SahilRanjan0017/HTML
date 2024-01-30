@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+    background-image: url(img.jpg);
+    color: white;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 40px 0;
+}
+header:hover{
+    transform: scale(1.1);
+}
+.action-button{
+    background-color: blue;
+    color: white;
+
+}
+.action-button:hover{
+    background-color: red;
+    font-size: large;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.two{
+   margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+}
+.two:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+#foot{
+    background-color: aqua;
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 30px ;
+}
+#foot:hover{
+    transform: scale(1.1);
+}

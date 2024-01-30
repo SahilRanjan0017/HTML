@@ -1,0 +1,110 @@
+body{
+background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #005f73;
+    color: #ffff;
+    padding: 15px 0;
+}
+.header-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin-left: 20px;
+}
+nav ul{
+    list-style:none;
+    display: flex;
+}
+nav ul li{
+   margin-right: 20px;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.frontview{
+    background-image: url("oXrLmSl.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  .frontview-content{
+   background-color: rgba(0,0,0, 0.5);
+   padding: 20px;
+  }
+  .frontview-button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ee6c4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+   transition: background-color 0.3s;
+  }
+  .frontview-button:hover{
+    background-color: #d64b2a;
+  }
+#services {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#services h2 {
+    color: #007bff;
+    font-weight: bold;
+}
+#services p{
+    color: green;
+}
+
+#services ul {
+    list-style-type: none;
+}
+
+#services li {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+#about-us{
+    background-color: #f0f0ff;
+    text-align: center;
+}
+#about h2{
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.contact{
+    padding: 20px;
+    text-align: center;
+}
+.contact h2{
+    color: #d64b2a;
+}
+
+
+

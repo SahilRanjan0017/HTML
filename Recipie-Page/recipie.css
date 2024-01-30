@@ -1,0 +1,45 @@
+body{
+   background-color: #fffbea;
+    color: #333;
+}
+header{
+   background-color: #79a3b1;
+    color: white;
+    padding: 30px  0;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+}
+.important{
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.ingredients{
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.instruction{
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    background-color:#79a3b1;
+    padding: 20px;
+}
+.ingredients h2,.instruction h2{
+    color: #b3568f;
+}
+ul ,ol {
+    margin-left: 20px;
+}

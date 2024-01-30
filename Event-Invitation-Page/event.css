@@ -1,0 +1,27 @@
+body{
+    background-color: #e8f4f8;
+}
+main{
+    border: rgba(94, 9, 9, 0.928);
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    background-color: #fff   ;
+    text-align: center;
+    border-radius: 5px;
+}
+.button{
+    background-color:blueviolet;
+    color: white;
+}
+button:hover{
+    background-color: green;
+    border: none;
+}
+.event-invitation .date-time, 
+.event-invitation .venue, 
+.event-invitation .description {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}

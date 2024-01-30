@@ -1,0 +1,56 @@
+<!-- Feedback Survey Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <main>
+        <!-- Heading of Feedback Survey  -->
+        <h1>Feedback Survey</h1>
+        <form id="survey-form">
+            <!-- Form Name Portion -->
+            <label for="name">
+                Name:
+            </label>
+            <input type="text" id="name" name="name" required>
+            <!-- Form Email Portion -->
+            <label for="email">
+                Email:
+            </label>
+            <input type="email" id="email" name="email" required>
+            <!-- Form Age Portion -->
+            <label for="age">Age: </label>
+            <input type="number" id="age" name="age" min="1" max="70">
+            <!-- Form Feedback type its may be postive negative  -->
+            <label for="Feedback-type">
+                Type of Feedback
+            </label>
+            <select id="Feedback-type" name="Feedback-type" ><option value="positive">Positive</option>
+            <option value="Negative">Negative</option>
+        <option value="Suggestion">Suggestion</option></select>
+        <fieldset>
+            <legend>Service Used</legend>
+            <input type="checkbox" name="Services" id="Service1" value="Service1">
+            <label for="Service1">Service 1</label>
+            <br>
+            <input type="checkbox" name="Services" id="Service2">
+            <label for="Service2">Service2</label>
+            <br>
+            <input type="checkbox" name="Services" id="Service3">
+            <label for="Service3">Service3</label>
+            <!-- Form Additional Comment Addon Feature  -->
+        </fieldset>
+        <label for="Comment">Additional Comments:</label>
+        <textarea name="Comment" id="Comment" 
+        rows="4"></textarea>
+        <!-- Form Button Sumbit for Feedback Sumbit -->
+        <button type="Submit">Submit Feedback</button>
+        </form>
+    </main>
+    
+</body>
+</html>
